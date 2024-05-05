@@ -1,0 +1,7 @@
+models : 
+  - name : customer_purchases
+    columns :
+     - name : key
+       tests : 
+        - unique
+        - not_null
